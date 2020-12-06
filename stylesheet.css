@@ -43,6 +43,17 @@ section {
     border: white;
 }
 
+#avond {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    opacity: 100;
+    background-color: rgb(209, 81, 49);
+    color: white;
+    border-radius: 1em;
+    border: white;
+}
+
 #nacht {
     height: 50px;
     width: 50px;

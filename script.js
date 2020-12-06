@@ -2,6 +2,7 @@
 //Dit had ik om af te kijken ^
 let btnnacht = document.querySelector('#nacht');
 let btndag = document.querySelector('#dag');
+let btnavond = document.querySelector('#avond');
 
 btnnacht.addEventListener('click', () =>{
     document.body.style.backgroundImage = "url('IMG/Nacht-100.jpg')"
@@ -9,6 +10,10 @@ btnnacht.addEventListener('click', () =>{
 
 btndag.addEventListener('click', () =>{
     document.body.style.backgroundImage = "url('IMG/Dag-100.jpg')"
+});
+
+btnavond.addEventListener('click', () =>{
+    document.body.style.backgroundImage = "url('IMG/avond-100.jpg')"
 });
 
 var DeWortel = document.querySelector('#OranjeWortel');
