@@ -12,7 +12,7 @@ btndag.addEventListener('click', () =>{
     document.body.style.backgroundImage = "url('IMG/Dag-100.jpg')"
 });
 
-btnavond.addEventListener('click', () =>{
+btnavond.addEventListener ('click', () =>{
     document.body.style.backgroundImage = "url('IMG/avond-100.jpg')"
 });
 
@@ -52,6 +52,10 @@ function boos () {
     Mp3RotHond.volume = 0.6;
 }
 
+function sleep () {
+    IGNeutraal.src = 'IMG/zzz.png';
+}
+
 // Bron: https://www.youtube.com/watch?v=1xEfqgElMsY hiermee heb ik de mouseenter & mouseleave mee verwerkt.
 // https://www.youtube.com/watch?v=s9wW2PpJsmQ de link voor het proberen om hem te laten in een Loop () te laten gaan.
 
@@ -61,4 +65,5 @@ DeVis.addEventListener('dragend', love)
 IGNeutraal.addEventListener('mouseenter', blij)
 IGNeutraal.addEventListener('mouseleave', normaal)
 Violin.addEventListener ('click', Vioolspelen)
-Schelden.addEventListener('click', boos) 
+Schelden.addEventListener('click', boos)
+btnnacht.addEventListener('click', sleep)
