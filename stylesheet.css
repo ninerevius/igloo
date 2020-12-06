@@ -1,0 +1,98 @@
+body {
+    background-image: url("../Igloo/IMG/Dag-100.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(107, 201, 255);
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    color: white;
+    text-shadow: 0 0 5px rgb(36, 36, 36);
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 0 5px rgb(36, 36, 36);
+    background-color: rgb(67, 158, 211);
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 2em;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+}
+
+#dag {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    opacity: 100;
+    background-color: rgb(106, 138, 209);
+    color: white;
+    border-radius: 1em;
+    border: white;
+}
+
+#nacht {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    opacity: 100;
+    background-color: rgb(81, 7, 131);
+    color: white;
+    border-radius: 1em;
+    border: white;
+}
+
+#IGB {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    position: center;
+
+}
+
+#DooieVis {
+    margin-top: 1em;
+    height: 3em;
+    width: 7em;
+}
+
+#OranjeWortel {
+    margin-top: 1em;
+    height: 3em;
+    width: 7em;
+}
+
+#Viool {
+    height: 5em;
+    width: 3em;
+
+}
+
+#Vloeken {
+    height: 5em;
+    width: 7em;
+}
+
+ul {
+
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+}
+
+audio {
+    display: none;
+}
