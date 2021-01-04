@@ -12,18 +12,7 @@ h1 {
     font-size: 5em;
     color: white;
     text-shadow: 0 0 5px rgb(36, 36, 36);
-}
-
-li {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: white;
-    text-shadow: 0 0 5px rgb(36, 36, 36);
-    background-color: rgb(67, 158, 211);
-    border-radius: 20px;
-    margin: 0.5em;
-    padding: 2em;
-
+    margin-bottom: 10%;
 }
 
 section {
@@ -65,6 +54,17 @@ section {
     border: white;
 }
 
+#Vakantie {
+    height: 50px;
+    width: 70px;
+    margin: 10px;
+    opacity: 100;
+    background-color: rgb(255, 238, 0);
+    color: rgb(0, 3, 167);
+    border-radius: 1em;
+    border: white;
+}
+
 #IGB {
     display: block;
     margin-left: auto;
@@ -75,18 +75,19 @@ section {
 }
 
 #DooieVis {
-    margin-top: 1em;
+    margin-top: 3em;
     height: 3em;
     width: 7em;
 }
 
 #OranjeWortel {
-    margin-top: 1em;
+    margin-top: 3em;
     height: 3em;
     width: 7em;
 }
 
 #Viool {
+    margin-left: 3em;
     height: 5em;
     width: 3em;
 
@@ -98,10 +99,56 @@ section {
 }
 
 ul {
-
-    justify-content: center;
-    display: flex;
+    position: absolute;
     list-style-type: none;
+
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 1.5em;
+    margin: 1em;
+    text-align: center;
+    color: rgb(253, 253, 253);
+
+
+}
+
+li.vies {
+    border-radius: 100px;
+    background-color: rgb(104, 71, 63);
+    text-shadow: 0 0 5px rgb(44, 1, 1);
+}
+
+li.lekker {
+    border-radius: 100px;
+    background-color: rgb(77, 235, 77);
+    text-shadow: 0 0 5px rgb(18, 77, 0);
+}
+
+li.verdrietig {
+    border-radius: 100px;
+    background-color: rgb(9, 80, 160);
+    text-shadow: 0 0 5px rgb(0, 27, 68);
+}
+
+li.boos {
+    border-radius: 100px;
+    background-color: rgb(161, 0, 22);
+    text-shadow: 0 0 5px rgb(73, 0, 28);
+}
+
+#LOT1 {
+    position: absolute;
+    margin-left: 25%;
+    bottom: 57%;
+}
+
+#LOT2 {
+    position: absolute;
+    margin-left: 70%;
+    bottom: 54%;
 }
 
 audio {
