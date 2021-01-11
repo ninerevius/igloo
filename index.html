@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Raleway:wght@100&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <i class="fa fas-snowflake"></i>
 </head>
 
 <body>
-
     <header>
         <section id='omgeving'>
             <button id='dag'>Dag</button>
@@ -20,7 +21,27 @@
             <button id='nacht'>Nacht</button>
             <button id='Vakantie'>Vakantie</button>
         </section>
+        <section class="introductie">
+            <form id='wiebenjijform'>
+                <fieldset>
+                    <h2>Vul hier jouw gegevens in</h2>
+                    <label for="voornaam">voornaam:</label>
+                    <input type="text" name='voornaam' id='voornaam' value='Nieuw '>
+                    <label for="achternaam">achternaam:</label>
+                    <input type="text" name='achternaam' id='achternaam' value='Vriendje'>
+                    <label for="dayrate">Welk cijfer geef je deze dag?</label>
+                    <input type="number" name='dayrate' id='dayrate' value=''>
+                    <input type='reset' name='reset'>
+                    <input type='submit' name='submit'>
+                </fieldset>
+            </form>
+
+        </section>
         <h1>Igloo de Zeehond</h1>
+        </section>
+        <section class="igloowiebenjij">
+            <p id='wiebenjijantwoord'>Hey! Wie ben jij?</p>
+        </section>
     </header>
     <section id='LOT1'>
         <ul>
@@ -44,6 +65,7 @@
             </li>
         </ul>
     </section>
+
     <img id="IGB" src="IMG/IGblank.png" alt="Igloo de zeehond die niets doet">
 
     <audio id='VioolMuziek' src="IMG/sadviolin.wav" controls></audio>
